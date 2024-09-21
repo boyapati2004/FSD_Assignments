@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Boyapati Bhavana</title>
+    <link rel="stylesheet" href="one.css">
+    <link rel="stylesheet" href="one.js">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Boyapati Bhavana</h1>
+            <p>Web Developer | Programmer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="C:\Users\Bhavana\Documents\FSD_Assignments\Assignment-3\bhavs.jpg" height="300" width="250"alt="Bhavana">
+                <div>
+                    <p>Hello! I'm Bhavana. Currently I'm pursuing my Bachelor of Technology at Vignan's University in the Computer Science field.</p>
+                    <ul>
+                        <li><strong>Name:</strong> B.Bhavana</li>
+                        <li><strong>Profession:</strong> Student</li>
+                        <li><strong>Location:</strong> Tadepalligudem, India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>C Language <progress value="90" max="100"></progress></li>
+                    <li>Python <progress value="80" max="100"></progress></li>
+                </ul>
+                <h3>Technologies</h3>
+                <ul>
+                    <li>HTML <progress value="90" max="100"></progress></li>
+                    <li>CSS <progress value="80" max="100"></progress></li>
+                    <li>JavaScript <progress value="80" max="100"></progress></li>
+                    <li>Machine Learning <progress value="80" max="100"></progress></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article>
+                    <!-- <img src="project1.jpg" alt="Project 1"> -->
+                    <h3>Network Intrusion Detection System</h3>
+                    <p>Due to the rise in cyberattacks, many organizations are facing security breaches and data loss. To address this issue, we have developed a machine learning model to detect network intrusions.<br>
+                        Algorithms: Traditional ML Models (KNN ,AdaBoost, SVM)
+                                          Ensembled Model (Gradient Boosting + Bagging Classifier)
+                     </p>
+                    <a href="C:\Users\Bhavana\Downloads\knn ml.ipynb">Code </a>
+                </article>
+                <article>
+                    <!-- <img src="project2.jpg" alt="Project 2"> -->
+                    <h3>Movie Genre Classification</h3>
+                    <p>Movie genre classification categorizes films based on themes and style, like action, comedy, drama, or horror, to help audiences understand what to expect.
+                        Here the models I have used to train the dataset are Naive Bayes, Logistic Regression, or Support Vector
+
+                        Machines.
+                       </p>
+                    <a href="C:\Users\Bhavana\Downloads\Codsoft 1.ipynb">Code </a>
+                </article>
+                <article>
+                    <!-- <img src="project3.jpg" alt="Project 3"> -->
+                    <h3>Credit Card Fraud Detection</h3>
+                    <p>
+                        Credit card fraud detection involves identifying unauthorized or suspicious transactions on a cardholder’s account. It uses techniques like machine learning, pattern recognition, and anomaly detection to flag unusual spending behavior, location, or transaction types, helping to prevent financial losses.
+                        Here the technologies used to train the dataset Logistic Regression, Decision Trees,
+
+                        or Random Forests to classify transactions as fraudulent or
+                        
+                        legitimate, and getting best accuracy among all models .
+                    </p>
+                    <a href="C:\Users\Bhavana\Downloads\knn ml.ipynb">Code </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Technology in Computer Science Engineering</strong> - Vignan University (2021 - 2025)</li>
+                <li><strong>M.P.C</strong> - St. Anns Junior College (2019 - 2021)</li>
+                <li><strong>Tenth</strong> - St. Anns English Medium School (2018 - 2019)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="msg" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+            <div id="confirmation" style="display:none;">Thank you! Your message has been sent.</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bhavana Boyapati. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#"><img src="fblogo.webp" alt="Facebook"></a>
+                <a href="#"><img src="twitterlogo.png"alt="Twitter"></a>
+                <a href="#"><img src="linkedinlogo.webp" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

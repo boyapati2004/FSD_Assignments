@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="section-box">
+                <h2>Personal Details</h2>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <div class="gender-container">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male" class="inline">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female" class="inline">Female</label>
+                    <input type="radio" id="other" name="gender" value="other" required>
+                    <label for="other" class="inline">Other</label>
+                </div>
+            </div>
+
+            <div class="section-box">
+                <h2>Education Details</h2>
+                <label for="collegeName">College Name:</label>
+                <input type="text" id="collegeName" name="collegeName" required>
+
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" required>
+
+                <label for="yearOfPassing">Year of Passing:</label>
+                <input type="text" id="yearOfPassing" name="yearOfPassing" required>
+
+                <label for="branch">Branch:</label>
+                <select id="branch" name="branch" required>
+                    <option value="cse">Computer Science and Engineering</option>
+                    <option value="ece">Electronics and Communication Engineering</option>
+                    <option value="mech">Mechanical Engineering</option>
+                    <option value="civil">Civil Engineering</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <label for="skills">Skills:</label>
+                <div class="skills-container">
+                    <input type="checkbox" id="java" name="skills" value="Java">
+                    <label for="java" class="inline">Java</label>
+                    <input type="checkbox" id="python" name="skills" value="Python">
+                    <label for="python" class="inline">Python</label>
+                    <input type="checkbox" id="html" name="skills" value="HTML">
+                    <label for="html" class="inline">HTML</label>
+                    <input type="checkbox" id="css" name="skills" value="CSS">
+                    <label for="css" class="inline">CSS</label>
+                </div>
+            </div>
+
+            <div class="section-box contact-details-box">
+                <h2>Contact Details</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="section-box">
+                <h2>Login Details</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
